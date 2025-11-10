@@ -1,0 +1,36 @@
+name: compusflow
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ⭐ DÉPENDANCES POUR L'IA
+  http: ^0.13.5
+
+  # Autres dépendances existantes
+  shared_preferences: ^2.2.2
+  mailer: ^6.3.0
+
+  # Remplacement des dépendances Firebase par SQLite
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # ⭐ DÉPENDANCES ESSENTIELLES SEULEMENT
+  url_launcher: ^6.1.7
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

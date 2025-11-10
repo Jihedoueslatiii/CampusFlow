@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "compusflow",
+          "appId": "1:837213052687:android:3578f232382fc9e1c7287a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "compusflow",
+          "configurations": {
+            "android": "1:837213052687:android:3578f232382fc9e1c7287a",
+            "ios": "1:837213052687:ios:07c04be3425eadefc7287a",
+            "macos": "1:837213052687:ios:07c04be3425eadefc7287a",
+            "web": "1:837213052687:web:566307e4a6d1d26cc7287a",
+            "windows": "1:837213052687:web:ecf14e8a5c0e0a06c7287a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "compusflow-functions",
+      "codebase": "compusflow-functions",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+}
