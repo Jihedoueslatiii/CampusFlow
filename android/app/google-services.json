@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "837213052687",
+    "project_id": "compusflow",
+    "storage_bucket": "compusflow.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837213052687:android:3578f232382fc9e1c7287a",
+        "android_client_info": {
+          "package_name": "com.example.compusflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCODoxezwBNETNrj2Mpdi7mUFB6rTANWnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
