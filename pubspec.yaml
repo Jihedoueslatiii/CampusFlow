@@ -1,0 +1,35 @@
+name: compusflow
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Résolution du conflit de version pour satisfaire flutter_localizations
+  intl: ^0.20.2
+
+  shared_preferences: ^2.2.2
+  mailer: ^6.3.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  cupertino_icons: ^1.0.8
+  qr_flutter: ^4.1.0
+  http: ^1.1.0  # ✅ AJOUTÉ ICI
+
+  # Ajouté pour les traductions du framework Material et Cupertino (fr_FR)
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
